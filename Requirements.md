@@ -66,10 +66,43 @@ The main benefit of solar credits is to help reduce electricity costs.
 **Priority:** Medium  
 
 **Description:**  
-The Co-op Manager should be able to view the solar energy generation and credit transfers happening in the community.
+The Co-op Manager should be able to view the solar energy generation and credit transfers 
+happening in the community.
 
 **Acceptance Criteria:**  
 The manager should be able to see the generation details and credit transfer details.
 
 **Rationale:**  
 This helps the manager keep track of the activities happening in the community.
+
+# Non-Functional Requirements
+
+## NFR-001 - System Performance
+
+**Type:** Performance  
+**Priority:** High  
+
+**Description:**  
+The system should process and store the solar generation data from the smart meters without taking too much time.
+
+**Acceptance Criteria:**  
+The system should be able to handle data from around 500 households and store the hourly generation data properly.
+
+**Rationale:**  
+The system needs to work properly even when many households are sending their solar generation data at the same time.
+
+
+## NFR-002 - System Security
+
+**Type:** Security  
+**Priority:** High  
+
+**Description:**  
+The system should keep the resident account information and solar credit transactions secure.
+
+**Acceptance Criteria:**  
+Only authorized users should be able to access their accounts and manage their solar credits.
+
+**Rationale:**  
+The system handles resident information and credit transfers, so the data should be protected.
+
